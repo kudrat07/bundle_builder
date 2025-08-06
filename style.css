@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html,
+body {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  margin: 24px 48px 48px 48px;
+}
+.item__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.item__card--title {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  width: 300px;
+}
+.card__item--img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card__item--name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 6px;
+}
+.card__item--price {
+  margin-top: -8px;
+  color: #666666;
+  font-weight: 400;
+}
+
+/* BUNDLE */
+.bundle__title {
+  color: #111111;
+  font-size: 24px;
+  font-weight: 600;
+}
+.bold {
+  font-weight: 600;
+}
+.bundle {
+  border: 1px solid black;
+  width: 500px;
+  height: 90vh;
+  margin: 0 auto;
+}
+.bundle__btn {
+  visibility: hidden;
+}
+.bundles {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+.bundle__wrapper {
+  margin: 12px;
+}
+.bundle__item--wrapper {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.bundle__item--text {
+  margin-top: 0px;
+  color: #111111;
+  font-weight: 600;
+}
+.bundle__item--price {
+  margin-top: -12px;
+  color: #666666;
+}
+.bundle__img--wrapper {
+  width: 80px;
+  height: 80px;
+  background-color: #f5f5f5;
+}
+.bundle__img {
+  width: 100%;
+  object-fit: cover;
+}
+.bundle__btn--wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -12px;
+}
+.bundle__btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ebebeb;
+  background-color: #f5f5f5;
+  padding: 0 4px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+}
+.bundle__btn {
+  display: flex;
+  justify-content: space-between;
+}
+.delete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.subtotal__wrapper,
+.discount__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount__wrapper {
+  border: 1px solid #ebebeb;
+  border-left: none;
+  border-right: none;
+  margin-top: 12px;
+}
+.discount {
+  margin: 4px;
+  color: #111111;
+}
+
+.subtotal__wrapper{
+  margin-top: -8px;
+}
+
+.subtotal{
+  font-size: 18px;
+  font-weight: 600;
+  color: #111111;
+}
+.proceed{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #444444;
+  padding: 12px 4px;
+  cursor: no-drop;
+}
+.proceed_btn{
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  cursor: no-drop;
+}
+
+.card__item--btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebebeb;
+  border: 1px solid #111111;
+  padding: 16px;
+  cursor: pointer;
+  width: 100%;
+  color: #24272b;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+}
